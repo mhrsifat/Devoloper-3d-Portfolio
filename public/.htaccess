@@ -1,0 +1,28 @@
+RewriteEngine On
+RewriteBase /
+
+RewriteRule ^index\.html$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.html [L]
+
+# ------------------------
+# Caching for static assets
+# ------------------------
+<IfModule mod_expires.c>
+  ExpiresActive On
+
+  # Cache images for 1 month
+  ExpiresByType image/jpeg "access plus 1 month"
+  ExpiresByType image/png "access plus 1 month"
+  ExpiresByType image/gif "access plus 1 month"
+  ExpiresByType image/svg+xml "access plus 1 month"
+  ExpiresByType image/webp "access plus 1 month"
+  
+  
+  ExpiresByType font/woff2 "access plus 1 month"
+  ExpiresByType font/woff "access plus 1 month"
+  ExpiresByType font/ttf "access plus 1 month"
+</IfModule>
+
+Options -Indexes
