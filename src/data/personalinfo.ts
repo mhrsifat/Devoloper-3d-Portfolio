@@ -1,6 +1,14 @@
 // src/data/personalinfo.ts
-import { stats } from "./blogs";
-import { Github, Linkedin, Mail, Globe } from "lucide-react";
+import {
+  stats
+} from "./blogs";
+import {
+  Github,
+  Linkedin,
+  Mail,
+  Globe
+} from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 
 export const profile = {
   name: 'MhrSifat',
@@ -9,7 +17,7 @@ export const profile = {
   pic: '/profilepic.jpg',
   location: 'Dhaka, Bangladesh',
   bioDescription:
-    "Passionate about building elegant solutions to complex problems. Specializing in modern web technologies, AI integration, and creating delightful user experiences that push the boundaries of what's possible.",
+  "Passionate about building elegant solutions to complex problems. Specializing in modern web technologies, AI integration, and creating delightful user experiences that push the boundaries of what's possible.",
   stats: {
     posts: 24,
     followers: 1024,
@@ -21,9 +29,34 @@ export const profile = {
   }
 };
 
-export const links = [
-  { icon: Github, label: 'GitHub', url: "https://github.com/mhrsifat", username: '@mhrsifat' },
-  { icon: Linkedin, label: 'LinkedIn', url: "https://linkedin.com/in/mhrsifat13", username: 'MhrSifat' },
-  { icon: Mail, label: 'Email', url: "mailto:mhrsifat@gmail.com", username: "mhrsifat@gmail.com" },
-  { icon: Globe, label: 'Website', url: "https://www.mhrsifat.xyz", username: "mhrsifat.xyz" }
+export const links = [{
+  icon: Github,
+  label: 'GitHub',
+  url: "https://github.com/mhrsifat",
+  username: '@mhrsifat'
+},
+  {
+    icon: Linkedin,
+    label: 'LinkedIn',
+    url: "https://linkedin.com/in/mhrsifat13",
+    username: 'MhrSifat'
+  },
+  {
+    icon: Mail,
+    label: 'Email',
+    url: "mailto:mhrsifat@gmail.com",
+    username: "mhrsifat@gmail.com"
+  },
+  {
+    icon: Globe,
+    label: 'Website',
+    url: "https://www.mhrsifat.xyz",
+    username: "mhrsifat.xyz"
+  },
+  {
+    icon: FaWhatsapp,
+    label: 'WhatsApp',
+    url: "https://wa.me/8801773448153",
+    username: "+8801773448153"
+  }, 
 ];
