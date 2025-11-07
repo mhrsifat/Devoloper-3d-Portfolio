@@ -1,15 +1,15 @@
 <svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-  <!-- Head -->
-  <circle cx="16" cy="16" r="14" fill="#FFDBAC" stroke="#000" stroke-width="1"/>
+  <!-- Head shape -->
+  <circle cx="16" cy="16" r="12" fill="#f8f9fa" stroke="#495057" stroke-width="0.5"/>
   
-  <!-- Glasses -->
-  <circle cx="11" cy="12" r="3" fill="none" stroke="#000" stroke-width="1.5"/>
-  <circle cx="21" cy="12" r="3" fill="none" stroke="#000" stroke-width="1.5"/>
-  <line x1="14" y1="12" x2="18" y2="12" stroke="#000" stroke-width="1.5"/>
+  <!-- Glasses - professional rectangular style -->
+  <rect x="8" y="10" width="5" height="3" fill="none" stroke="#212529" stroke-width="1"/>
+  <rect x="19" y="10" width="5" height="3" fill="none" stroke="#212529" stroke-width="1"/>
+  <line x1="13" y1="11.5" x2="19" y2="11.5" stroke="#212529" stroke-width="1"/>
   
-  <!-- Beard -->
-  <path d="M 10 18 Q 16 24 22 18 Q 20 22 16 22 Q 12 22 10 18" fill="#8B4513"/>
+  <!-- Beard - clean professional style -->
+  <path d="M 10 16 Q 16 20 22 16 Q 20 19 16 19 Q 12 19 10 16" fill="#6c757d"/>
   
-  <!-- Smile -->
-  <path d="M 11 20 Q 16 23 21 20" fill="none" stroke="#000" stroke-width="1"/>
+  <!-- Simple mouth -->
+  <line x1="12" y1="22" x2="20" y2="22" stroke="#212529" stroke-width="1" stroke-linecap="round"/>
 </svg>
