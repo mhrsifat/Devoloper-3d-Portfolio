@@ -1,35 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="avatar">
-  <!-- outer circle badge -->
-  <circle cx="32" cy="32" r="30" fill="#eceef0" stroke="#111" stroke-width="1.2"/>
-
-  <!-- shirt -->
-  <path d="M12 44c2-6 6-8 20-8s18 2 20 8v8H12z" fill="#bfe8ff" stroke="#0b4a6f" stroke-width="0.9" stroke-linejoin="round"/>
-
-  <!-- neck -->
-  <rect x="26" y=" thirtysix" width="12" height="6" rx="1.2" fill="#d9a07a" />
-
-  <!-- head -->
-  <circle cx="32" cy="24" r="11" fill="#d9a07a" stroke="#111" stroke-width="0.9"/>
-
-  <!-- hair -->
-  <path d="M21 21c1-6 6-9 11-9s10 3 11 9v1h-23z" fill="#222" />
-
-  <!-- beard -->
-  <path d="M23 30c1 5 4 7 9 7s8-2 9-7c0-1 0-2-1-2h-16c-1 0-1 1-1 2z" fill="#222" />
-
-  <!-- mouth (smile) -->
-  <path d="M27.5 28.5c1 1.2 2.8 1.8 4.5 1.8s3.5-0.6 4.5-1.8" fill="#fff" stroke="#fff" stroke-width="0.6" stroke-linecap="round" />
-
-  <!-- glasses -->
-  <circle cx="26" cy="22" r="3.2" fill="none" stroke="#111" stroke-width="0.9"/>
-  <circle cx="38" cy="22" r="3.2" fill="none" stroke="#111" stroke-width="0.9"/>
-  <path d="M29 22h6" stroke="#111" stroke-width="0.9" stroke-linecap="round"/>
-
-  <!-- eyes (dots) -->
-  <circle cx="26" cy="22" r="0.9" fill="#111"/>
-  <circle cx="38" cy="22" r="0.9" fill="#111"/>
-
-  <!-- collar detail -->
-  <path d="M22 42 L30 34 L34 36 L42 42" fill="#bfe8ff" stroke="#0b4a6f" stroke-width="0.8" stroke-linejoin="round"/>
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- Head -->
+  <circle cx="16" cy="16" r="14" fill="#FFDBAC" stroke="#000" stroke-width="1"/>
+  
+  <!-- Glasses -->
+  <circle cx="11" cy="12" r="3" fill="none" stroke="#000" stroke-width="1.5"/>
+  <circle cx="21" cy="12" r="3" fill="none" stroke="#000" stroke-width="1.5"/>
+  <line x1="14" y1="12" x2="18" y2="12" stroke="#000" stroke-width="1.5"/>
+  
+  <!-- Beard -->
+  <path d="M 10 18 Q 16 24 22 18 Q 20 22 16 22 Q 12 22 10 18" fill="#8B4513"/>
+  
+  <!-- Smile -->
+  <path d="M 11 20 Q 16 23 21 20" fill="none" stroke="#000" stroke-width="1"/>
 </svg>
