@@ -1,9 +1,9 @@
-name: Deploy Vite React App
+name: Deploy devopoper-3D
 
 on:
   push:
     branches:
-      - main
+      - prod
 
 jobs:
   deploy:
